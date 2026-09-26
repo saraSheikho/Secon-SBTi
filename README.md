@@ -8,5 +8,7 @@ The goal of the project is to eliminate manual calculation bottlenecks, allowing
 
 # Built With
 Frontend: React, JavaScript
+
 Backend: C#, .NET [Core / 10.0]
+
 Database: 
