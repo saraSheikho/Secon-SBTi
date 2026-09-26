@@ -22,10 +22,10 @@ jobs:
           dotnet-version: 8.0.x
 
       - name: Restore
-        run: dotnet restore backend/Secon_SBTi_API_solution/Secon_SBTi_API.sln
+        run: dotnet restore backend/Secon-SBTi_API_solution/Secon-SBTi_API.sln
 
       - name: Build
-        run: dotnet build backend/Secon_SBTi_API_solution/Secon_SBTi_API.sln --no-restore --configuration Release
+        run: dotnet build backend/Secon-SBTi_API_solution/Secon-SBTi_API.sln --no-restore --configuration Release
 
       - name: Test
-        run: dotnet test backend/Secon_SBTi_API_solution/Secon_SBTi_API.sln --no-build --configuration Release
+        run: dotnet test backend/Secon-SBTi_API_solution/Secon-SBTi_API.sln --no-build --configuration Release
